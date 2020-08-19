@@ -63,10 +63,6 @@ plt.plot(data.history['val_accuracy'])
 plt.show()
 
 
-from ann_visualizer.visualize import ann_viz;
-
-ann_viz(model, title="MyFirst                                                        ")
-
 
 
 
