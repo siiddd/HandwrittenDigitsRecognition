@@ -57,7 +57,6 @@ for x in y_predicted_normalized:
 cm_normalized = confusion_matrix(y_test,y_predicted_list_normalized)
 
 #Visualize the Epochs vs Accuracy
-
 plt.plot(data.history['accuracy'])
 plt.plot(data.history['val_accuracy'])
 plt.show()
